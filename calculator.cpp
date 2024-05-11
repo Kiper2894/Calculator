@@ -13,7 +13,12 @@ int main() {
     case '-':
         cout << a - b;
         break;
-      
+    case '*':
+        cout << a * b;
+        break;
+    case '/':
+        cout << a / b;
+        break;
     }
     return 0;
 }
